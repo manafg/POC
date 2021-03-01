@@ -1,0 +1,22 @@
+{
+  "name": "sheets",
+  "version": "1.0.0",
+  "description": "POC for transfer data from excel to sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^6.1.0",
+    "compress-commons": "^4.0.2",
+    "exceljs": "^4.2.0",
+    "exceljs-rtl": "^0.2.38",
+    "googleapis": "^39.2.0",
+    "graceful-fs": "^4.2.4",
+    "gulp": "^3.9.1",
+    "xlsx": "^0.16.9"
+  }
+}
